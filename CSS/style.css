@@ -2,7 +2,7 @@ body {
     font-family: 'Baloo Bhaijaan 2', sans-serif;
     margin: 0px;
     padding: 0px;
-    background: url("images/home2.png");
+    background: url("/images/home2.png");
     color: white;
     background-size: cover;
     background-position: center ;
@@ -23,6 +23,11 @@ body {
     height: 40px;
   }
 
+  .left a {
+    text-decoration: none;
+    color: white;
+  }
+
   .left div {
     line-height: 10px;
     font-size: 19px;
@@ -33,14 +38,14 @@ body {
   .mid {
     display: block; 
     width: 48%;
-    margin: 10px 0px 0px 569px;
+    margin: 10px 0px 0px 529px;
     border: 2px solid green; 
   }
 
   .right {
     position: absolute;
     right: 34px;
-    top: 26px;
+    top: 19px;
     display: inline-block;
     border: 2px solid yellow; 
   }
@@ -66,25 +71,33 @@ body {
     color: #E63946;
   }
 
-  .btn {
+  .btn, .container .btn {
     font-family: 'Baloo Bhaijaan 2', sans-serif;
-    margin: 0px 0px;
-    background: #E63946;
-    color: white;
-    padding: 4px 14px;
-    border: 2px solid gray;
+    /* margin: 0px 0px; */
+    background: white;
+    color: black;
+    padding: 0px 15px;
+    border: 2px solid white;
     border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
   }
 
   .btn:hover {
-    background-color: rgb(49, 45, 45);
+    background-color:#E63946;
+    color: white;
+    border: 2px solid #E63946;
+  }
+
+  .btn:active {
+    background-color:#B91C1C;
+    color: white;
+    border: 2px solid #B91C1C;
   }
 
   .container {
     border: 1px solid white;
-    margin: 47px 190px;
+    margin: 105px 190px;
     padding: 5px;
     width: 74%;
     border-radius: 28px;
@@ -123,7 +136,6 @@ body {
 
   .container button {
     display: block;
-    width: 60%;
     margin: 20px auto;
     font-size: 15px ;
   }

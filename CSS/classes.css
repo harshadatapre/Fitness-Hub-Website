@@ -1,8 +1,20 @@
-* {
-    margin: 0px;
-    padding: 0px;
+.classes-container {
+    background: #151515;
+    border: 2px solid aqua;
+    width: 95%;
+    margin: 32px;
 }
 
-.classes-container {
-    border: 2px solid aqua;
+.item {
+    border: 2px solid blue;
+    width: 30%;
 }
+
+/* .class-head {
+
+} */
+
+/* img {
+    width: ;
+} */
+

@@ -37,8 +37,8 @@ body {
 
   .mid {
     display: block; 
-    width: 48%;
-    margin: 10px 0px 0px 529px;
+    width: 56%;
+    margin: 10px 0px 0px 284px;
     border: 2px solid green; 
   }
 
@@ -66,7 +66,7 @@ body {
   }
 
   .navbar li a:hover,
-  .navbar li a:active {
+  .navbar li a.active {
     text-decoration: underline;
     color: #E63946;
   }
@@ -101,8 +101,6 @@ body {
     padding: 5px;
     width: 74%;
     border-radius: 28px;
-    /* padding-left: 60px;
-    padding-right: 60px; */
   }
 
   .form-group input {

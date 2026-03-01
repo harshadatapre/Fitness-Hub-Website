@@ -1,20 +1,130 @@
-.classes-container {
-    background: #151515;
-    border: 2px solid aqua;
-    width: 95%;
-    margin: 32px;
-}
+body {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url("/images/classes.png");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .left {
+    position: absolute; 
+    left: 34px;
+    top: 10px;
+    display: inline-block;
+    border: 2px solid red; 
+  }
+
+  .left img {
+    width: 50px;
+    filter: invert(100%);
+    margin-left: 20px;
+    height: 40px;
+  }
+
+  .left a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .left div {
+    line-height: 10px;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .mid {
+    display: block; 
+    width: 56%;
+    margin: 10px 0px 0px 284px;
+    border: 2px solid green; 
+  }
+
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 19px;
+    display: inline-block;
+    border: 2px solid yellow; 
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 25px;
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    /* background: transparent; */
+  }
+
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: #E63946;
+  }
+
+ .btn { 
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    /* margin: 0px 0px; */
+    background: white;
+    color: black;
+    padding: 0px 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color:#E63946;
+    color: white;
+    border: 2px solid #E63946;
+  }
+
+  .btn:active {
+    background-color:#B91C1C;
+    color: white;
+    border: 2px solid #B91C1C;
+  }
+
+  .class-head {
+    margin: 67px 35px;
+    font-size: 70px;
+  }
+
+  .container {
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 405px 405px 405px;
+    gap: 25px;
+    margin: 63px 40px;
+    /*padding: 5px;
+    width: 74%; */
+    /* border-radius: 28px; */
+  }
 
 .item {
-    border: 2px solid blue;
-    width: 30%;
+    border: 2px solid coral;
+    /* height: 55px;
+    width: 55px; */
+    width: 100%;
+    height: 347px;
 }
 
-/* .class-head {
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-} */
-
-/* img {
-    width: ;
-} */
-
+  

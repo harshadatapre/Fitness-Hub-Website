@@ -2,10 +2,11 @@ body {
     font-family: 'Baloo Bhaijaan 2', sans-serif;
     margin: 0px;
     padding: 0px;
-    background: url("/images/home2.png");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url("/images/memberships.png");
     color: white;
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
   }
 
   .left {
@@ -72,7 +73,7 @@ body {
     color: #E63946;
   }
 
-  .btn, .container .btn {
+ .btn { 
     font-family: 'Baloo Bhaijaan 2', sans-serif;
     /* margin: 0px 0px; */
     background: white;
@@ -94,47 +95,4 @@ body {
     background-color:#B91C1C;
     color: white;
     border: 2px solid #B91C1C;
-  }
-
-  .container {
-    border: 1px solid white;
-    margin: 105px 190px;
-    padding: 5px;
-    width: 74%;
-    border-radius: 28px;
-  }
-
-  .form-group input {
-    font-family: 'Baloo Bhaijaan 2', sans-serif;
-    text-align: center;
-    display: block;
-    width: 300px;
-    padding: 1px;
-    border: 1px solid black;
-    margin: 10px auto;
-    font-size: 17px;
-    border-radius: 8px;
-  }
-
-  .container p {
-    text-align: center;
-  }
-
-  .container .head {
-    margin-top: 80px;
-    margin-bottom: 0px;
-    /* padding-top: 30px; */
-    font-size: 80px;
-    line-height: 60px;
-  } 
-
-  .container .sub_head {
-    font-size: 24px;
-    margin-top: 0px;
-  }
-
-  .container button {
-    display: block;
-    margin: 20px auto;
-    font-size: 15px ;
   }

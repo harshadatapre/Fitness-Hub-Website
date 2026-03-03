@@ -14,7 +14,7 @@ body {
     left: 34px;
     top: 10px;
     display: inline-block;
-    border: 2px solid red; 
+    /* border: 2px solid red;  */
   }
 
   .left img {
@@ -40,7 +40,7 @@ body {
     display: block; 
     width: 56%;
     margin: 10px 0px 0px 284px;
-    border: 2px solid green; 
+    /* border: 2px solid green;  */
   }
 
   .right {
@@ -48,7 +48,7 @@ body {
     right: 34px;
     top: 19px;
     display: inline-block;
-    border: 2px solid yellow; 
+    /* border: 2px solid yellow;  */
   }
 
   .navbar {
@@ -76,44 +76,42 @@ body {
  .btn { 
     font-family: 'Baloo Bhaijaan 2', sans-serif;
     /* margin: 0px 0px; */
-    background: white;
-    color: black;
+    background: #E63946;
+    color: white;
     padding: 0px 15px;
-    border: 2px solid white;
+    border: 2px solid #E63946;
     border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
   }
 
   .btn:hover {
-    background-color:#E63946;
-    color: white;
-    border: 2px solid #E63946;
-  }
-
-  .btn:active {
     background-color:#B91C1C;
     color: white;
     border: 2px solid #B91C1C;
   }
 
-  .class-head {
-    margin: 67px 35px;
-    font-size: 70px;
+  .btn:active {
+    background-color:#8B0000;
+    color: #E0E0E0;;
+    border: 2px solid #8B0000;
   }
 
-  .container {
-    border: 1px solid white;
+  .class-head {
+    margin: 50px 35px;
+    font-size: 70px;
+    line-height: 48px;
+  }
+
+  .class-container {
+    /* border: 1px solid white; */
     display: grid;
     grid-template-columns: 405px 405px 405px;
     gap: 25px;
     margin: 63px 40px;
-    /*padding: 5px;
-    width: 74%; */
-    /* border-radius: 28px; */
   }
 
-.item {
+.cls {
     position: relative;
     /* border: 2px solid coral; */
     width: 100%;
@@ -125,7 +123,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 5px;
     
 }
 
@@ -133,18 +131,52 @@ body {
   content: "";
   position: absolute;
   width: 100%;
-  height: 50%;
+  height: 40%;
   bottom: 0px;
   left: 0px;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7));
   z-index: 1;
 }
 
-.item-1::after {
-  content: "Boxing";
-  font-size: 60px;
+.text {
+  /* border: 2px solid darkblue; */
+  position: absolute;
+  font-size: 37px;
+  bottom: 13px;
+  left: 30px;
+  line-height: 50px;
+  color: white;
+  z-index: 3;
 }
+
+.item button {
+  position: absolute;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
+  background-color: #E63946;
+  color: white;
+   bottom: 10px;
+    left: 30px;
+    border: 2px solid #E63946;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 3;
+  padding-inline: 19px;
+}
+
+.item button:hover {
+    background-color:#B91C1C;
+    color: white;
+    border: 2px solid #B91C1C;
+  }
+
+  .item button:active {
+    background-color:#8B0000;
+    color: #E0E0E0;;
+    border: 2px solid #8B0000;
+  }
+
 
   

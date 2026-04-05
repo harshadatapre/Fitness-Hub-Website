@@ -82,6 +82,7 @@ body {
     border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
+    outline: none;
   }
 
   .btn:hover {

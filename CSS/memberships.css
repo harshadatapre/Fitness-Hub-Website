@@ -48,7 +48,7 @@ body {
     right: 34px;
     top: 19px;
     display: inline-block;
-    border: 2px solid yellow; 
+    /* border: 2px solid yellow;  */
   }
 
   .navbar {
@@ -105,7 +105,7 @@ body {
   }
 
   .member-container {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: grid;
     grid-template-columns: 405px 405px 405px;
     gap: 25px;
@@ -123,4 +123,46 @@ body {
     border-radius: 15px;
     /* padding: 40px; */
     color: white;
+    
 }
+
+.member-card h3 {
+  font-size: 30px;
+  line-height: 10px;
+  padding-left: 25px;
+}
+
+.member-card ul {
+  font-size: 25px;
+  padding-left: 50px;
+}
+
+.member-card button {
+  position: absolute;
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
+  background-color: #E63946;
+  color: white;
+   bottom: 10px;
+    left: 30px;
+    border: 2px solid #E63946;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 3;
+  padding-inline: 19px;
+  margin-bottom: 10px;
+  margin-left: 19px;
+  outline: none;
+}
+
+.member-card button:hover {
+    background-color:#B91C1C;
+    color: white;
+    border: 2px solid #B91C1C;
+  }
+
+  .member-card button:active {
+    background-color:#8B0000;
+    color: #E0E0E0;;
+    border: 2px solid #8B0000;
+  }
